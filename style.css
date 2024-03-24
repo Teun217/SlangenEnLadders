@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+#linkerKant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rechterKant {
+    margin: 0 1em;
+}
+
+
+#fotoKnop {
+    position: fixed;
+    max-width: 25%;
+    bottom: 0;
+    margin: 0 8em;
+}
+
+.hide {
+    display: none;
+}
+
+#text {
+    position: fixed;
+    top: 0;
+}
+
+.naamveld1 {
+    color: blue;
+}
+
+.naamveld2 {
+    color: red;
+}
+
+#bord {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(/images/bord.JPG);
+    background-size: 100%;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+.rows_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 10%;
+}
+
+.rows div,
+.rows_reverse div {
+    width: 10%;
+    height: 100%;
+
+}
+
+#n1 {
+    position: relative;
+}
+
+.blauw_actief {
+    background-image: url(/images/blue_player.png);
+    background-size: 100%;
+}
+
+.rood_actief {
+    background-image: url(/images/red_player.png);
+    background-size: 100%;
+}
+
+.both {
+    background-image: url(/images/both_players.png);
+    background-size: 100%;
+}
