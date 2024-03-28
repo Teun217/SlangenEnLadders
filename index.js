@@ -331,7 +331,6 @@ function verplaatsing() {
     setTimeout(checkVoorLadders, timingPerStap * (willekeurigGetal + 1));
     setTimeout(updateSpelerPostitie, timingPerStap * (willekeurigGetal + 1));
     setTimeout(checkDubbeleSpelerPositie, timingPerStap * (willekeurigGetal + 1));
-    setTimeout(logInfo, timingPerStap * (willekeurigGetal + 1));
 };
 
 function radIMG() {
