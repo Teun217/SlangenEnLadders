@@ -76,16 +76,16 @@ body {
 }
 
 .blauw_actief {
-    background-image: url(/images/blue_player.png);
+    background-image: url(images/blue_player.png);
     background-size: 100%;
 }
 
 .rood_actief {
-    background-image: url(/images/red_player.png);
+    background-image: url(images/red_player.png);
     background-size: 100%;
 }
 
 .both {
-    background-image: url(/images/both_players.png);
+    background-image: url(images/both_players.png);
     background-size: 100%;
 }
