@@ -46,7 +46,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column-reverse;
-    background-image: url(/images/bord.JPG);
+    background-image: url(images/bord.JPG);
     background-size: 100%;
 }
 
